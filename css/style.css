@@ -1,0 +1,192 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+header{
+    background: #0d405f;
+	color: #ffffff;
+	padding-top:10px;
+	border-bottom:#0d0801 5px solid;
+    height:70px;
+}
+
+header h1{
+    color: #0d0801;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+}
+
+header a{
+    text-decoration:none;
+    
+    font-size: 15px;
+    color: #f4f4f4;
+}
+
+.right{
+    float: right;
+    text-transform:uppercase;
+
+}
+
+.middle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0d0801;
+    padding-top: 20px;
+}
+
+header li{
+    display: inline;
+    float: ;
+    padding: 0 20px 0 20px;
+    
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+#display-head{
+	min-height:400px;
+	background: url('../img/1.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+    
+}
+
+#display-head h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#display-head p{
+    font-size: 20px;  
+}
+
+#bar{
+    width: 50%;
+    height: 40px;
+}
+
+.click{
+    height:45px;
+    background-color: #0d405f;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: bisque;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#wave{
+    padding-top: 50px;
+}
+
+#salesadvert{
+    
+    font-size: 25px;
+    text-align: center;
+    color: #0d0801;
+}
+
+#salesadvert p{
+    font-size: 20px;
+}
+
+/* About us Page */
+#a-top h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#a-top p{
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+}
+
+.camp{
+    display: flex;
+}
+
+.box{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.camp h2{
+    font-size: 20px;
+    text-align: center;
+}
+/* Contact */
+.chead{
+    min-height:400px;
+	background: url('../img/3.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #e8e5e5;
+}
+
+.chead h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.chead p{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Comic Sans, Palatino, ;
+}
+
+.midd{
+    text-align: center;
+}
+
+.midd h1{
+    color: red;
+    padding-top: 40px;
+
+}
+
+#mid h2{
+    color: #0d405f;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#contact{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0d405f;
+}
+
+
+footer{
+    text-align: center;
+    background: #0d405f;
+	color: #ffffff;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
